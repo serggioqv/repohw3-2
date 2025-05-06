@@ -19,16 +19,16 @@ Using web browser go to http://127.0.0.1:5000/
 
 / 
 for the list of recipes, available to anyone
+
+End points displayed only to registered and loged users, use:  
+User: daniel  
+Password: 123456
 	
 /recipe/new
 In this page you will have a form that will allow you to add a new recipe.
 
-End point displayed only to registered and loged users, use:
-User: daniel
-Password: 123456
-
-/recipe/<integer>
+/recipe/number
 This page will return one recipe with its details, works only with valid recipe ID 
 
-/recipe/<integer>/delete
+/recipe/number/delete
 This page will delete the specific recipe
