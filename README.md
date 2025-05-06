@@ -23,12 +23,14 @@ for the list of recipes, available to anyone
 End points displayed only to registered and loged users, use:  
 User: daniel  
 Password: 123456
+
+/login login user
 	
 /recipe/new
 In this page you will have a form that will allow you to add a new recipe.
 
-/recipe/number
+/recipe/ID
 This page will return one recipe with its details, works only with valid recipe ID 
 
-/recipe/number/delete
+/recipe/ID/delete
 This page will delete the specific recipe
